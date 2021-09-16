@@ -19,7 +19,7 @@ public class Main {
 
             switch (inputCase) {
                 case 1://add book
-                    System.out.println("Enter bookName and your  count:");
+                    System.out.println("Enter bookName and your  count: add commit");
                     String nameBook = input.next();
                     int count = input.nextInt();
                     library.addBook(nameBook, count);
